@@ -1,0 +1,29 @@
+services:
+  quant:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: cc-quant-lab-quant-01
+    ports:
+      - "8801:8800"
+    environment:
+      HOST: "0.0.0.0"
+      PORT: "8800"
+      DATABASE_PATH: /app/backend/instance/hengchi_quant.db
+    volumes:
+      - quant_data:/app/backend/instance
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8800/login', timeout=5)",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  quant_data:

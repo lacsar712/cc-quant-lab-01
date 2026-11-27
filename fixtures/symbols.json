@@ -1,0 +1,10 @@
+{
+  "catalog": "hengchi-offline",
+  "items": [
+    {"code": "IF主连", "name": "沪深300股指期货", "exchange": "CFFEX"},
+    {"code": "AU主连", "name": "黄金期货", "exchange": "SHFE"},
+    {"code": "RB主连", "name": "螺纹钢期货", "exchange": "SHFE"},
+    {"code": "SC主连", "name": "原油期货", "exchange": "INE"},
+    {"code": "M主连", "name": "豆粕期货", "exchange": "DCE"}
+  ]
+}

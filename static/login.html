@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>衡尺盘 · 登录</title>
+  <link rel="stylesheet" href="/frontend/css/terminal.css" />
+</head>
+<body class="login-body">
+  <main class="login-card">
+    <h1>衡尺盘模拟研究台</h1>
+    <p class="login-hint">离线量化研究环境，不接真实交易所</p>
+    <form id="login-form">
+      <label>登录账号<input name="username" value="admin" autocomplete="username" /></label>
+      <label>登录密码<input name="password" type="password" value="123456" autocomplete="current-password" /></label>
+      <p class="pwd-note">演示密码为 123456，仅本地仿真使用</p>
+      <button type="submit">进入研究台</button>
+      <p id="login-error" class="error" hidden></p>
+    </form>
+  </main>
+  <script src="/frontend/js/login.js"></script>
+</body>
+</html>

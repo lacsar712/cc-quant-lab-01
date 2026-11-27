@@ -1,0 +1,26 @@
+{
+  "series": [
+    {
+      "symbol_code": "IF主连",
+      "period": "1d",
+      "bars": [
+        {"time": "2024-03-01", "open": 3450, "high": 3478, "low": 3438, "close": 3466, "volume": 152000},
+        {"time": "2024-03-04", "open": 3468, "high": 3492, "low": 3455, "close": 3480, "volume": 148500},
+        {"time": "2024-03-05", "open": 3478, "high": 3505, "low": 3460, "close": 3498, "volume": 161200},
+        {"time": "2024-03-06", "open": 3495, "high": 3510, "low": 3472, "close": 3478, "volume": 139800},
+        {"time": "2024-03-07", "open": 3480, "high": 3520, "low": 3475, "close": 3512, "volume": 172300}
+      ]
+    },
+    {
+      "symbol_code": "AU主连",
+      "period": "1d",
+      "bars": [
+        {"time": "2024-03-01", "open": 482.5, "high": 485.2, "low": 481.0, "close": 484.6, "volume": 92000},
+        {"time": "2024-03-04", "open": 484.8, "high": 486.5, "low": 483.2, "close": 485.0, "volume": 88000},
+        {"time": "2024-03-05", "open": 485.2, "high": 487.8, "low": 484.0, "close": 486.9, "volume": 91000},
+        {"time": "2024-03-06", "open": 486.5, "high": 488.0, "low": 485.1, "close": 485.8, "volume": 86500},
+        {"time": "2024-03-07", "open": 485.5, "high": 489.2, "low": 485.0, "close": 488.4, "volume": 94500}
+      ]
+    }
+  ]
+}
